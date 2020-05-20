@@ -5,10 +5,10 @@ This is a mobile application that allows you to quiz yourself using flashcards.
 # Getting Started
 
 To get this project started run the following commands in the terminal:
-`npm install` to install the project dependencies
-`npm start` to start the project
-If npm does not work, try:
-`expo start` to start the project
+
+- `npm install` to install the project dependencies
+- `npm start` to start the project
+- If npm does not work, try: `expo start` to start the project
 
 # Features List
 
