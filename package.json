@@ -8,16 +8,27 @@
     "test": "jest"
   },
   "dependencies": {
+    "@expo/vector-icons": "^9.0.0",
     "expo": "~37.0.3",
+    "expo-constants": "~5.0.1",
+    "expo-permissions": "~5.0.1",
     "expo-updates": "~0.2.0",
+    "prop-types": "^15.7.2",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "~0.61.5",
     "react-native-gesture-handler": "~1.6.0",
     "react-native-reanimated": "~1.7.0",
     "react-native-screens": "~2.2.0",
+    "react-native-swiper": "^1.6.0-nightly.5",
     "react-native-unimodules": "~0.9.0",
-    "react-native-web": "~0.11.7"
+    "react-native-viewpager": "^0.2.13",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^3.11.0",
+    "react-redux": "6.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
