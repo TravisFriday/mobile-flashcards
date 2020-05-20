@@ -74,7 +74,7 @@ export class AddCard extends Component {
             Submit
           </TouchButton>
         </View>
-        <View style={{ height: "30%" }} />
+        <View style={styles.viewspace} />
       </View>
     );
   }
@@ -112,6 +112,9 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.8,
     shadowRadius: 1,
     elevation: 5,
+  },
+  viewspace: {
+    height: "30%",
   },
 });
 

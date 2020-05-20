@@ -15,7 +15,10 @@ const Deck = (props) => {
         <Text style={styles.deckText}>{deck.title}</Text>
       </View>
       <View>
-        <Text style={styles.cardText}>{deck.questions.length} cards</Text>
+        <Text style={styles.cardText}>
+          {deck.questions.length}{" "}
+          {deck.questions.length !== 1 ? "Cards" : "Card"}
+        </Text>
       </View>
     </View>
   );

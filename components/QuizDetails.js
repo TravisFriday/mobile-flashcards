@@ -74,6 +74,13 @@ class QuizDetails extends Component {
       answered: Array(prevState.questionCount).fill(0),
     }));
   };
+  handleFlipCardPress = () => {
+    if (this.state.show === screen.QUESTION)
+      this.setState({ show: screen.ANSWER });
+    else {
+      this.setState({ show: screen.QUESTION });
+    }
+  };
   render() {
     const { questions } = this.props.deck;
     const { show } = this.state;
@@ -208,14 +215,14 @@ class QuizDetails extends Component {
             {show === screen.QUESTION ? (
               <TextButton
                 txtStyle={{ color: black }}
-                onPress={() => this.setState({ show: screen.ANSWER })}
+                onPress={() => this.handleFlipCardPress()}
               >
                 Tap to flip
               </TextButton>
             ) : (
               <TextButton
                 txtStyle={{ color: black }}
-                onPress={() => this.setState({ show: screen.QUESTION })}
+                onPress={() => this.handleFlipCardPress()}
               >
                 Tap to flip
               </TextButton>

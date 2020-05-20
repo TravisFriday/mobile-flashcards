@@ -32,7 +32,6 @@ export class DeckDetail extends Component {
               {
                 backgroundColor: black,
                 borderColor: white,
-                borderRadius: 30,
               },
               styles.button,
             ]}
@@ -48,7 +47,6 @@ export class DeckDetail extends Component {
               {
                 backgroundColor: white,
                 borderColor: black,
-                borderRadius: 30,
               },
               styles.button,
             ]}
@@ -65,8 +63,6 @@ export class DeckDetail extends Component {
               {
                 backgroundColor: white,
                 borderColor: red,
-                borderRadius: 30,
-                borderWidth: 2,
               },
               styles.button,
             ]}

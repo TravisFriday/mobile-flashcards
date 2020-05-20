@@ -1,16 +1,28 @@
 # Mobile Flashcards
 
-This is a mobile application that allows you to quiz yourself using flashcards.
+This is a mobile application that allows you to quiz yourself using flashcards. You can create decks and add flashcards to them.
 
-# Getting Started
+## Platforms
+
+This app will work on both Android and iOS devices
+
+## Getting Started
 
 To get this project started run the following commands in the terminal:
 
-- `npm install` to install the project dependencies
-- `npm start` to start the project
+- `npm install` or `yarn install` to install the project dependencies
+- `npm start` or `yarn start` to start the project
 - If npm does not work, try: `expo start` to start the project
 
-# Features List
+## Built With
+
+- React Native
+
+## Version
+
+- 1.0
+
+## Features List
 
 - Create Deck
 - Add Card
@@ -31,3 +43,7 @@ The only data stored in the database is:
 | questions | Array  | A list of all the questions and answers for each Quiz |
 | question  | String | A question for the user                               |
 | answer    | String | The answer to the question asked                      |
+
+## Acknowledgements
+
+- Udacity
